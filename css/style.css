@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .container{
     display: flex;
@@ -12,6 +15,21 @@
     background-color: rgb(255, 243, 204);
     width: 100%;
     height: 100vh;
+}
+
+h1{
+    font-family: 'Merienda', cursive;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 4px;
+    color: rgb(255, 178, 54);
+}
+
+h2{
+    font-family: 'Merienda', cursive;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: rgb(44, 44, 44);
 }
 
 .board{
@@ -70,4 +88,11 @@
 .card-back img{
     width: 100px;
     height: 100px;
+}
+
+.game-block{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
 }
